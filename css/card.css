@@ -1,0 +1,67 @@
+.mdl-shadow--2dp{
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.card{ 
+  margin: 8px;
+  border-radius: 19px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  background-color: white;
+}
+.card ._image{
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.card .content{
+  padding: 8px;
+}
+.card ._content ._title{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin:  15px 0 0 0;
+}
+.card ._content {
+  font-size: 16px;
+  line-height: 1.3em;
+  height:16em;
+  overflow-y: hidden;
+}
+.card ._content ._detail{
+    padding: 0 20px;
+    font-size: 21px;
+}
+.card ._content ._detail._A5{
+    font-size: 16.5px;
+    padding: 0 0px 0 11px ;
+} 
+.card ._content ._detail._A2{
+    font-size: 20px;
+    padding: 0 0 0 30px ;
+} 
+.card ._content ._detail._A4{
+    font-size: 18px; 
+}
+.card ._action{
+  display: table;
+  width: 100%;
+
+}
+.card ._action > ._action_content{
+  display: table-cell;
+  padding: 3px;
+}
+.card ._action > ._action_content ._link{
+  float: right;
+  margin-right: auto; 
+
+}
+.card ._action ._action_content  .btn{
+  margin: 0 calc( 8px);
+  padding: 11px 20px;
+  border-radius: 12px;
+  background-color: transparent;
+  border: none;
+}
+.card ._action > ._action_content .btn:hover,.card ._action > ._action_content .btn:active {
+  background-color: rgba(0,0,0,0.08);
+}

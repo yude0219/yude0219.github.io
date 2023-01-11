@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 1700px;
+    margin: auto;
+}
+
+.row{
+    display: table;
+    width: 100%;
+}
+/* 全部與手機 all */
+.col-phone-100{
+    width:100%;
+    float: left
+}
+
+.col-phone-67{
+    width: 67%;
+    float: left
+}
+
+.col-phone-50{
+    width:50%;
+    float: left
+}
+
+.col-phone-33{
+    width: 33%;
+    float: left
+}
+
+.col-phone-25{
+    width: 25%;
+    float: left
+}
+
+/* 768 ~ MAX */
+@media (min-width: 768px){
+/* for tablet */    
+.col-tablet-100{
+    width:100%;
+    float: left
+}
+
+.col-tablet-67{
+    width: 66.67%;
+    float: left
+}
+
+.col-tablet-50{
+    width:50%;
+    float: left
+}
+
+.col-tablet-33{
+    width: 33.33%;
+    float: left
+}
+
+.col-tablet-25{
+    width: 25%;
+    float: left
+}    
+}
+/* 992 ~ MAX */
+@media (min-width: 992px){
+/* for desktop and laptop */
+.col-desktop-100{
+    width:100%;
+    float: left
+}
+
+.col-desktop-67{
+    width: 67%;
+    float: left
+}
+
+.col-desktop-50{
+    width:50%;
+    float: left
+}
+
+.col-desktop-33{
+    width: 33%;
+    float: left
+}
+
+.col-desktop-25{
+    width: 25%;
+    float: left
+} 
+.col-desktop-20{
+    width: 20%;
+    float: left
+} 
+}

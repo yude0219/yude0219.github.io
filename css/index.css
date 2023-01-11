@@ -1,0 +1,16 @@
+body{
+    font-family: 'Macondo','Noto Sans TC',sans-serif;
+}
+
+section:nth-child(2n){
+    background-image: url(https://pbs.twimg.com/profile_images/1584506175294701569/U56ucOhM_400x400.png);
+     background-size:cover;
+   background-attachment:fixed;
+} 
+section:nth-child(n + 2){
+    padding: 32px 0;
+}
+
+.remove_padding{
+    padding: 0 !important;
+}

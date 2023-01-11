@@ -1,0 +1,98 @@
+.index-cover{
+    background: url("https://campaign-shinycolors.idolmaster.jp/roadto5th/img/main_v.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: table;
+    width: 100%;
+}
+
+.sign{
+    float: right;
+    width: 20%;
+    padding-right: 8%;
+    position:relative;
+}
+.Sa{
+    max-width: 210px;
+    max-height: 143.5px;
+}
+.T{
+    max-width: 60px;
+    max-height: 100px;
+     
+}
+.M{
+    
+    max-width: 100px; 
+    max-height: 180px;
+   
+}
+.TOP{
+     text-align: center;
+}
+.web{
+    align-content: center;
+    color: red; 
+    text-align: center; 
+    width: 100%;
+}
+.webb{
+     align-content: center;
+    color: red; 
+    text-align: center; 
+    width: 100%;
+    margin: 0;
+}
+._K{
+    text-align: center;
+    width: 80%; 
+    height: 450px;
+    margin: 0 0 0 10%;
+    border: none;
+}
+.III{
+    color: darkgrey;
+    background: rgba(0,0,255,0,5);
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    bottom: 6%;
+    right: 6%;
+    position:fixed;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 1000;
+}
+.index-cover .index-container{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.index-cover .index-container ._title{
+    margin: 0;
+    margin-bottom: 56px;
+    font-size: 72px;
+    color: #F8FAFF;
+    text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+}
+
+.index-cover .index-container .btn{
+    padding: 8px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    margin:0 8px;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.24),0 1.5px 0 0 rgba(0,0,0,0.12);
+}
+.index-cover .index-container .btn.btn_light{
+    background-color: #AAABD3;
+    color: white;
+}
+.index-cover .index-container .btn.btn_dark{
+    background-color: #353866;
+    color: white;
+}

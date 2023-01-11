@@ -1,0 +1,48 @@
+.slogan{
+    color: red;
+    text-align: center;
+    font-size: 22.5px;
+}
+footer{
+   background-color: #242424;
+}
+footer ._container{
+   margin: 56px 0;
+}
+footer ._container._center{
+   text-align: center;
+}
+ul.footer-links{
+   color: #22ff33;
+}
+#songli{
+    color: #22ff33;
+    padding: 0 5%;
+    
+}
+#song{
+    margin-top: 22px;
+}
+ul.footer-links  li{
+   padding: 8px;
+   
+}
+footer .fa-brands{
+   color: white;
+   background-color: gray;
+   height: 48px;
+   width: 48px;
+   line-height: 48px;
+   text-align: center;
+   border-radius: 50%;
+   margin-top: 32px;
+}
+
+@media (max-width: 767px){
+   footer ._container{
+       margin: 24px 0;
+   }
+   footer .fa-brands{
+       margin-top: 0px;
+   }
+}
